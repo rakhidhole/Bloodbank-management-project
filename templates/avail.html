@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet"type="text/css"href="/static/homestyle.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <meta charset="utf-8">
+        <meta name="viewport"content="width-device-width,intiak-scale=1.0">
+        <meta http-equiv="x-UA-compatible" content="IE-edge">
+       
+
+    </head> 
+
+<body>
+        <nav>
+          <div class="menu">
+            <p>Blood Bank management</p>
+          </div>
+            <ul>
+              <li><a href="/index">Home</a></li>
+          <li><a href="#">Blood available</a></li>
+          <li><a href="/donation">blood donation</a></li>
+          <li><a href="/about">about us</a></li>
+              
+            </ul>
+        </nav>
+        
+      <div class="main">
+        <pre>
+            1
+            2
+            3
+            4
+        </pre>
+        <table cellspacing="25px" >
+            
+          <tr>
+              
+            <td>
+             <img src="/static/a+.jpg"style="height: 300px;width:320px"/>
+            </td>
+            <td>
+                <img src="/static/a-.jpg"style="height: 300px;width:320px"/>
+            </td>
+              
+          
+            <td>
+             
+                <img src="/static/b+.jpg"style="height:250px;width:300px"/>
+            </td>
+              
+            <td>
+              
+                <img src="/static/b-.jpg"style="height: 250px;width:300px"/>
+            </td>
+         </tr>
+         <tr class="borderbox">
+          
+              
+                <td name="A+" id="A+">
+                
+                 {{A1}}
+                
+                </td>
+                 <td name="A-" id="A-">
+                  {{A2}}
+                 </td>
+                  
+              
+                  <td name="B+" id="B+">
+                    {{B1}}
+                  </td>
+                  
+                  <td name="B-" id="B-">
+                    {{B2}}
+                 </td>
+                 
+            </tr>
+            <tr>
+                <td>
+                 <img src="/static/ab+.jpg"style="height: 250px;width:300px"/>
+                </td>
+                
+            
+                <td>
+                  <img src="/static/bg.jpg"style="height:250px;width:300px"/>
+                </td>
+                
+                <td>
+                  <img src="/static/o+.jpg"style="height: 250px;width:300px"/>
+               </td>
+               <td>
+                <img src="/static/o-.jpg"style="height: 250px;width:300px"/>
+             </td>
+            </tr>
+            <tr class="borderbox">
+              
+                <td name="AB+" id="AB+">
+                  {{AB1}}
+                </td>
+                 <td name="AB-" id="AB-">
+                  {{AB2}}
+                 </td>
+                  
+              
+                  <td name="O+" id="O+">
+                    {{O1}}
+                  </td>
+                  
+                  <td name="O-" id="O-">
+                    {{O2}}
+                 </td>
+                </tr>
+
+        </table>
+        <table class="card">
+          <tr>
+            <td>
+        <div class="box">
+          <button class="btn"><i class="fa fa-users"></i></button>
+          <br>
+          <h2>
+            Total Requests
+          </h2>
+          <h4>
+            {{b}}
+          </h4>
+        </div>
+        <div class="box">
+          <button class="btn"><i class="fa fa-check-circle"></i></button>
+          <br>
+
+          <h2>
+            Approved Requests
+          </h2>
+          <h4>
+            {{a}}
+          </h4>
+        </div>
+        <div class="box">
+          <button class="btn"><i class="fa fa-tint"></i></button>
+          <br>
+          <h2>
+            Total Blood Unit
+          </h2>
+          <h4>
+            {{c}}
+          </h4>
+        </div>
+      </td>
+      </tr>
+      </table>
+        </div>
+
+</body>
+</html>    

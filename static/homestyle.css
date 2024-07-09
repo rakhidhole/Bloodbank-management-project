@@ -1,0 +1,145 @@
+
+.header
+{
+    width: 0px;
+    padding:0;;
+    margin:0;;
+
+}
+.header table li{
+    font-size: 100px;
+    font-style: italic;
+    
+    
+}
+.header img{
+    width: 1347px;
+    height: 620px;
+    background-image: -o-linear-gradient(rgba(224, 17, 17, 0.5)) url(../ocean side view.jpeg);
+}
+nav{
+    width: 100%;
+    height: 75px;
+    top:0;
+    left:0;
+    right:0;
+    line-height: 65px;
+    /*padding:0px 100px;*/
+    position: fixed;
+    background-image: linear-gradient(#8f0707,#ad0909);
+}
+nav .menu p{
+    font-size:30px;
+    font-weight: bold;
+    float: left;
+    color: antiquewhite;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+
+
+}
+nav ul li a{
+    color:#fff;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    font: size 10px;
+}
+nav ul li a:hover{
+    color:#ff8c69;
+   transition:all 0.4s ease 0s;
+}
+.title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #181616;
+    font-size: 40px;
+
+}
+.title ul li a{
+    color:#111010;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    font: size 70px;
+}
+
+
+.header table{
+    text-align: center;
+    width: 800px;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 20px;
+}
+.content{
+    display:inline block;
+    width: 1250px;
+}
+
+
+.footerh3{
+    text-align:center;
+    color: #e61616;
+    background-image: linear-gradient(#8f0707,#ad0909);
+
+}
+
+.borderbox td{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50%;
+
+}
+.box{
+    width:350px;
+    height:150px;
+    background-color: rgb(226, 243, 243);
+    display: inline-block;
+    box-shadow: 10px 10px 5px gray;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+.card tr td{
+    text-align: center;
+   margin-top:15px ;
+   padding-top:15px ;
+   padding-left:100px ;
+   padding-right:15px ;
+   border-collapse: separate;
+   border-spacing: 10px 20px;
+    
+}
+.box:hover {
+	transform: scale(1.5);
+	transition: .5s ease;
+}
+
+.btn{
+    font-size: larger;
+    float: right;
+}
+.camp{
+    text-align: center;
+    padding: 20px;
+
+}
+.camp td{
+    padding: 20px;
+
+}
+.camp thead{
+    background-color: #006699;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
